@@ -4,4 +4,5 @@
 
 Open terminal > Windows key + r, then type cmd and enter
 Where you are > cd
-Whats around me > pwd
+What's around me > pwd
+Who you are > whoami
