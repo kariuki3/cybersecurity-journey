@@ -1,0 +1,11 @@
+# Kali is just a Linux Debian-based
+
+#Basic Kali Linux Commands
+
+#Level 1: Terminal Basics
+
+Open terminal > ctrl + alt + T
+Where am I > pwd
+Who are you > whoami
+System info > uname -a
+Check disk space > df -h
