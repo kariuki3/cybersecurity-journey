@@ -1,0 +1,7 @@
+#Windows command line interface
+
+#Basic Windows CLI commands
+
+Open terminal > Windows key + r, then type cmd and enter
+Where you are > cd
+Whats around me > pwd
