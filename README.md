@@ -32,18 +32,13 @@ e.g.:
 -Virtualisation
 -Cloud Computing Fundamentals
 5. Operating Systems Basics
-
-&#x20;  , e.g.:
-
-&#x09;-Operating Systems Introduction
-
-&#x09;-Linux Basics
-
-&#x09;-Windows Basics
-
-&#x20;       -Windows CLI Basics
-
-&#x09;-Operating System Security
+e.g.:
+-Operating Systems Introduction
+-Linux Basics
+-Windows Basics
+-Windows CLI Basics
+-Operating System Security
+6. Next
 
 
 
