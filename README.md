@@ -38,7 +38,7 @@ e.g.:
 -Windows Basics
 -Windows CLI Basics
 -Operating System Security
-6. Next
+6. Continuing...
 
 
 
