@@ -3,37 +3,37 @@
 This repository documents my journey into cybersecurity.
 
 ## Topics Covered
-Introduction to Cybersecurity
+1. Introduction to Cybersecurity
 e.g.:
 -Offensive Security Intro
 -Defensive Security Intro
 -Careers in Cyber Security
-Network Fundamentals
+2. Network Fundamentals
 e.g.:
 -What is Networking
 -Intro into LAN
 -OSI Model
 -Packets and Frames
-How the web works
+3. How the web works
 e.g.:
 -DNS in Detail
 -HTTP in Detail
 -How Websites Work
-Computer Fundamentals
+4. Computer Fundamentals
 e.g.:
 -Inside a Computer System
 -Computer Types
--Client-Sever Basics
+-Client-Server Basics
 -Virtualisation
 -Cloud Computing Fundamentals
-Operating Systems Basics
+5. Operating Systems Basics
 e.g.:
 -Operating Systems Introduction
 -Linux Basics
 -Windows Basics
 -Windows CLI Basics
 -Operating System Security
-Software Basics
+6. Software Basics
 e.g.:
 -Data representation
 -Data encoding
