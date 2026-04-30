@@ -1,0 +1,40 @@
+INTRODUCTION TO CYBERSECURITY
+🔹 What is Cybersecurity?
+
+Cybersecurity is the practice of protecting:
+
+Computers
+Networks
+Data
+from unauthorized access, attacks, or damage.
+🔹 The CIA Triad (VERY IMPORTANT)
+
+These are the 3 core principles of security:
+
+Confidentiality
+Only authorized users can access data
+Example: Passwords, encryption
+Integrity
+Data should not be altered or tampered with
+Example: Hashing (ensures files are unchanged)
+Availability
+Systems must be accessible when needed
+Example: Preventing DDoS attacks
+
+
+🔹 Types of Cybersecurity Roles
+🔴 Offensive Security (Red Team)
+Attack systems to find vulnerabilities
+Tools: Kali Linux, Metasploit
+Goal: Think like a hacker
+🔵 Defensive Security (Blue Team)
+Protect and monitor systems
+Tools: SIEM, firewalls
+Goal: Detect and stop attacks
+🟣 Purple Team
+Combines Red + Blue teams
+🔹 Common Threats
+Malware (viruses, ransomware)
+Phishing (fake emails)
+Brute-force attacks
+Social engineering
