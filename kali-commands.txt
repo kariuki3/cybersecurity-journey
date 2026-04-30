@@ -9,3 +9,54 @@ Where am I > pwd
 Who are you > whoami
 System info > uname -a
 Check disk space > df -h
+
+#Level 2: File & Directory Navigation
+
+List files > ls
+Detailed list > ls -l
+Show hidden files > ls -la
+Change directory > cd Desktop or cd /home/kali
+Go back > cd ..
+Go home > cd ~
+
+#Level 3: File Management
+
+Create folder > mkdir + foldername
+Create file > touch + filename.txt
+Delete file > rm + filename.txt
+Delete folder > rm -r + foldername
+Copy file > cp + file.txt + copy.txt
+Move file > mv + file.txt + directory, e.g., mv file.txt /home/kali/desktop
+Rename file > mv + oldname.txt + newname.txt
+Rename folder > mv oldname + newname
+
+#Level 4: View & Edit Files
+
+Open file (edit) > nano + filename.txt
+Save in nano > ctrl + o
+Exit nano > ctrl + x
+View file content > cat + filename.txt
+View large files > less + file.txt, press q to exit
+View first 10 lines > head + filename.txt
+View last 10 lines > tail + filename.txt
+
+#Level 5: Searching (Very Important)
+
+Find a file > find + directory + -name + "filename.txt", e.g., find /home/kali -name "file.txt"
+find all .txt files > find + directory + -name + "*.txt", e.g., find /home/kali -name "*.txt"
+Search entire system > sudo find / -name "filename.txt"
+Search inside files > grep -r "password" /home
+
+#Level 6: Networking Basics (Kali Important)
+
+Check interface > ip + a
+Get IP address > hostname -I
+ping host > ping + host IP, e.g., ping 192.168.1.1 or ping -c 4 192.168.1.1 to send only 4 packets
+Discover devices > nmap + -sn + host IP.0/24, e.g.,  nmap -sn 192.168.1.0/24
+Scan port > nmap + -sV + target IP, e.g., nmap -sV 192.168.1.10
+
+#Level 7: Basic Hacking Flow
+
+Discover targets > nmap + -sn + host IP.0/24, e.g., nmap -sn 192.168.1.0/24
+Scan target > nmap + -sV + target IP, e.g., nmap -sV 192.168.1.6
+Connect to service > nc + target IP + Port, e.g., nc 192.168.1.6 22
