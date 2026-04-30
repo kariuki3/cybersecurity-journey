@@ -1,6 +1,6 @@
 # Kali is just a Linux Debian-based
 
-#Basic Kali Linux Commands
+#Basic Kali Linux Commands (NB: THE (+) INCLUDED IN THE COMMANDS MEANS (AND) IT IS NOT PART OF THE COMMAND)
 
 #Level 1: Terminal Basics
 
@@ -60,3 +60,5 @@ Scan port > nmap + -sV + target IP, e.g., nmap -sV 192.168.1.10
 Discover targets > nmap + -sn + host IP.0/24, e.g., nmap -sn 192.168.1.0/24
 Scan target > nmap + -sV + target IP, e.g., nmap -sV 192.168.1.6
 Connect to service > nc + target IP + Port, e.g., nc 192.168.1.6 22
+
+List only real users in a target machine > awk -F: '$3 >=1000 {print $1}' /etc/passwd
