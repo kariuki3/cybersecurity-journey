@@ -1,0 +1,25 @@
+HOW THE WEB WORKS
+
+🔹 DNS (Domain Name System)
+Converts domain names → IP addresses
+
+Example:
+
+google.com → 142.250.x.x
+
+🔹 HTTP vs HTTPS
+Feature		HTTP	HTTPS
+Security	No	Yes
+Encryption	None	SSL/TLS
+
+🔹 Web Request Process
+User enters URL
+DNS resolves IP
+Browser sends request
+Server responds
+Browser displays page
+
+🔹 Important Terms
+URL – web address
+GET – request data
+POST – send data
