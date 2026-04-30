@@ -2,7 +2,74 @@
 
 #Basic Windows CLI commands
 
+#Opening & Basic Navigation
+
 Open terminal > Windows key + r, then type cmd and enter
 Where you are > cd
-What's around me > pwd
+List files in current folder > dir
+Show hidden files > dir /a
+Move into a folder > cd + foldername
+Go back one folder > cd ..
+Clear screen > cls
+
+#File Searching & viewing
+Search for a file > dir + filename /s
+Read a file > type + filename
+
+#System Information commands
 Who you are > whoami
+Computer name > hostname
+Windows version & system info > systeminfo
+
+#Network commands
+View IP configuration > ipconfig
+Check connectivity > ping + google.com
+Trace route (path packets take) > tracert + google.com
+Show active connections > netstat + -an
+View devices on network > arp + -a
+
+#File & Folder Management
+Create a folder > mkdir + foldername
+Delete folder > rmdir + foldername
+Create file > type + nul + > + filename
+Delete file > del + filename
+Write into file > echo Hello > file.txt
+Copy file > copy file1.txt file2.txt
+Rename file > ren oldname.txt newname.txt
+Move file > mv file.txt D:\folder
+
+#Opening Programs from CMD
+Open Notepad > notepad
+Open Chrome > start chrome
+Open new CMD window > start cmd
+
+#Process Management 
+View running processes > tasklist
+Kill a process > taskkill /IM program.exe /F
+
+#User Management 
+View Users > net user
+View user details > net user username
+Add new user > net user username password /add
+
+#Disk Management
+Open disk tool > diskpart
+View disk > list disk
+View volume > list volume
+
+####10. Git + CLI Workflow (Your Cybersecurity Portfolio 🚀)
+Creating and uploading file:
+Create file
+notepad kali-commands.txt
+Add to Git
+git add kali-commands.txt
+Commit
+git commit -m "Added kali basic commands"
+Push
+git push
+Updating file:
+Edit file → save
+Then:
+git add kali-commands.txt
+git commit -m "Updated kali basic commands"
+git push
