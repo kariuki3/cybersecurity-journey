@@ -6,7 +6,7 @@ RAM → Temporary memory
 Storage → Permanent memory
 
 🔹 Client vs Server
-Client	Server
+Client		Server
 Requests data	Provides data
 
 Example:
