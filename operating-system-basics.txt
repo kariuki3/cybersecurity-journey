@@ -1,0 +1,39 @@
+OPERATING SYSTEM BASICS
+🔹 What is an OS?
+
+Manages:
+
+Hardware
+Applications
+Users
+
+🔹 Linux Basics
+
+Common commands: refer to Kali commands for more commands
+
+ls      # list files
+cd      # change directory
+pwd     # show current path
+cat     # view file content
+
+🔹 Windows Basics
+
+Common commands: refer to windows cli commands for more
+
+dir
+cd
+ipconfig
+
+🔹 Permissions (IMPORTANT)
+
+Linux:
+
+rwx
+r = read
+w = write
+x = execute
+
+🔹 OS Security
+User authentication
+Updates & patches
+Antivirus
