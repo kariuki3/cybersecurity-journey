@@ -1,0 +1,51 @@
+NETWORK FUNDAMENTALS
+🔹 What is a Network?
+
+A network is a group of connected devices that communicate.
+
+🔹 IP Address
+Unique identifier for a device on a network
+Example: 192.168.1.1
+
+Two types:
+
+Private IP – used inside networks
+Public IP – used on the internet
+
+🔹 MAC Address
+Physical address of a device (hardware level)
+Example: 00:1A:2B:3C:4D:5E
+
+🔹 OSI Model (VERY IMPORTANT)
+Layer	Name	Function
+7	Application	User interaction (HTTP)
+6	Presentation	Encryption
+5	Session	Session control
+4	Transport	TCP/UDP
+3	Network	IP addressing
+2	Data Link	MAC addressing
+1	Physical	Cables, signals
+
+👉 Memory trick:
+All People Seem To Need Data Processing
+
+🔹 TCP vs UDP
+Feature		TCP	UDP
+Connection	Yes	No
+Reliable	Yes	No
+Speed		Slower	Faster
+
+🔹 Ports (VERY IMPORTANT)
+Used to identify services on a device
+Port	Service
+80	HTTP
+443	HTTPS
+21	FTP
+22	SSH
+
+👉 Example:
+192.168.1.10:80 → Web server
+
+🔹 Packets & Frames
+Packet → Network layer data
+Frame → Data link layer data
