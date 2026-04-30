@@ -38,7 +38,14 @@ e.g.:
 -Windows Basics
 -Windows CLI Basics
 -Operating System Security
-6. Continuing...
+6. Software Basics
+e.g.:
+-Data representation
+-Data encoding
+-Python: Simple demo
+-JavaScript: Simple demo
+-Database SQL basics
+7. Continuing...
 
 
 
