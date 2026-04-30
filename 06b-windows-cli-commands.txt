@@ -58,16 +58,14 @@ View disk > list disk
 View volume > list volume
 
 ####10. Git + CLI Workflow (Your Cybersecurity Portfolio 🚀)
-Creating and uploading file:
-Create file
-notepad kali-commands.txt
-Add to Git
-git add kali-commands.txt
-Commit
-git commit -m "Added kali basic commands"
-Push
-git push
-Updating file:
+
+#Creating and uploading file:
+Create file > notepad kali-commands.txt
+Add to Git > git add kali-commands.txt
+Commit > git commit -m "Added kali basic commands"
+Push > git push
+
+#Updating file:
 Edit file → save
 Then:
 git add kali-commands.txt
