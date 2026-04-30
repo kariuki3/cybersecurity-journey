@@ -1,0 +1,28 @@
+COMPUTER FUNDAMENTALS
+
+🔹 Main Components
+CPU → Brain of computer
+RAM → Temporary memory
+Storage → Permanent memory
+
+🔹 Client vs Server
+Client	Server
+Requests data	Provides data
+
+Example:
+
+Browser = Client
+Website = Server
+
+🔹 Virtualization
+Running multiple operating systems on one machine
+Example: Your VirtualBox setup
+
+🔹 Cloud Computing
+Access services over internet
+
+Types:
+
+IaaS → Infrastructure
+PaaS → Platform
+SaaS → Software
