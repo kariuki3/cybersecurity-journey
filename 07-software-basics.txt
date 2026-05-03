@@ -1,3 +1,124 @@
 # Software Basics Module.
 
 #Data Representation
+
+🔢 1. Number Systems Overview
+System	Base	Digits Used
+Decimal	10	0–9
+Binary	2	0, 1
+Hexadecimal	16	0–9, A–F
+Octal	8	0–7
+
+⚡ 2. Why Computers Use Binary
+Computers use two states only:
+ON (1)
+OFF (0)
+Physical representation:
+Voltage (low/high)
+Magnetic polarity
+Light (on/off)
+
+👉 Everything in a computer = 0s and 1s
+
+🧩 3. Bits and Bytes
+Bit = 1 binary digit (0 or 1)
+Byte (Octet) = 8 bits
+Bits	Possible Values
+1 bit	2 values
+8 bits	256 values
+
+
+🎨 4. Color Representation (RGB)
+🔹 Basic (3 bits → 8 colors)
+
+3 colors: Red, Green, Blue
+Each can be:
+0 (off)
+1 (on)
+
+👉 Total colors:
+
+2×2×2=8
+Binary	Color
+000	Black
+001	Blue
+010	Green
+100	Red
+011	Cyan
+101	Magenta
+110	Yellow
+111	White
+🔹 Advanced (24-bit color)
+Each color gets 8 bits (1 byte)
+Total = 3 bytes (RGB)
+
+👉 Total colors:
+
+256×256×256=16,777,216
+
+✔ Used in real systems (True Color)
+
+🔡 5. Hexadecimal System (VERY IMPORTANT)
+Groups 4 bits → 1 hex digit
+Hex	Binary
+A	1010
+B	1011
+C	1100
+D	1101
+E	1110
+F	1111
+🎯 Why Hex is Used
+Binary is long and hard to read
+Hex is compact + readable
+
+Example:
+
+Binary: 10100011 11101010 00101010
+Hex: A3EA2A
+
+👉 Used in:
+
+Color codes (#A3EA2A)
+Memory addresses
+Cybersecurity tools
+🔢 6. Binary to Decimal Conversion
+
+👉 Example:
+
+1001=1×2
+3
++0×2
+2
++0×2
+1
++1×2
+0
+=8+0+0+1=9
+Key Rule:
+Start from right → power 0
+Move left → increase power
+🔁 7. Decimal to Binary Idea
+Divide by 2 repeatedly
+Track remainders
+🔶 8. Hexadecimal to Decimal
+
+👉 Example:
+
+9BDF=9×16
+3
++11×16
+2
++13×16
+1
++15×16
+0
+=39,903
+🔷 9. Octal (Optional)
+Base 8 (0–7)
+Groups 3 bits
+Octal	Binary
+5	101
+7	111
+
+
+
